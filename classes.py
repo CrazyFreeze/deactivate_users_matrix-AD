@@ -73,7 +73,7 @@ class Compared:
         return result
 
 class Deactivate:
-    def __init__(self, MATRIXSRV, TOKEN, ACCOUNTS):
+    def __init__(self, MATRIXSRV, TOKEN, ACCOUNTS, SUFFIX):
         self._srvname = MATRIXSRV
         self._token = TOKEN
         self._acclist = ACCOUNTS
